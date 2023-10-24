@@ -1,0 +1,12 @@
+{
+    "app": {
+        "port": 8000
+    },
+    "mongoDB":{
+        "url" :"",
+        "dbName":"test",
+        "collectionName":"Contact",
+        "SetBatchSize": 1000000,
+        "InsertManyBatchSize": 1000000
+    }
+}
